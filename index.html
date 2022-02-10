@@ -6,17 +6,17 @@
     <body>
         <header id="header">
             <div id="icon">
-                <h1>Xomato</h1>
+                <h1>zomato</h1>
             </div>
             <div id="social">
                 <a href="https//www.facebook.com" target="_blank">
                     <img src="images/favicon.ico" alt="Facebook" class="slogo"/>
                 </a>
                 <a href="https//www.instagram.com" target="_blank">
-                    <img src="images/" alt="Instagram" class="slogo"/>
+                    <img src="images/insta.png" alt="Instagram" class="slogo"/>
                 </a>
                 <a href="https//www.youtube.com" target="_blank">
-                    <img src="image/youtube1.png" alt="youtube" class="slogo"/>
+                    <img src="images/youtube1.png" alt="youtube" class="slogo"/>
                 </a>
             </div>
         </header>
@@ -26,9 +26,13 @@
            <div id="logo">
                <span>E!</span>
            </div>
+          
+           
            <div id="heading">
                Find The Best Restaurants Near You
            </div>
+          
+       
            <div class="dropdown">
                 <select id="city" onChange="getHotel()">
                     <option>----SELECT CITY----</option>
@@ -36,8 +40,14 @@
                 <select class="restaurantSelect" id="hotels">
                     <option>----SELECT RESTAURANTS----</option>
                 </select>
+                <div id="coupon">
+                
+                    <button onclick="closeDiv()">&times;</button>
+                    <img src="pasted image 0.png" alt="">
+                </div>
            </div>
         </div>
+        
         <!-- Search End-->
 
         <div id="QuickSearch">
@@ -136,6 +146,9 @@
         </footer>
         <script>
             window.onload=getCity()
+        </script>
+        <script>
+            window.onload=test()
         </script>
     </body>
 </html>

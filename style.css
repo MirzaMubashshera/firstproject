@@ -32,7 +32,7 @@ a{
 /* Search Css */
 #search{
     height: 400px;
-    background-image:url('foodWallpaper.png');
+    background-image:url('wallpaper.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 100% 400px;
@@ -95,6 +95,27 @@ select{
 .restaurantSelect{
     width:50%
 }
+#coupon{
+    
+    
+    width: 100px;
+   
+    top: 16px;
+    right: 16px;
+    z-index: 2;
+    cursor: pointer;
+    margin-left: 30px;
+    margin-top: -99px;
+    
+}
+#coupon>button{
+    width: 58px;
+    position: absolute;
+   margin-left: 766px;
+    z-index: 2;
+    cursor: pointer;
+}
+
 
 /* Quick Search */
 #QuickSearch{
@@ -134,7 +155,7 @@ select{
     margin-top: 2%;
     margin-left: 2%;
     box-shadow: 10px 20px 15px gray;
-    animation: dance 10s infinite
+    /*animation: dance 10s infinite*/
 }
 
 @keyframes dance {
@@ -146,7 +167,7 @@ select{
 }
 
 .tileContainer:hover{
-    transform: scale(1.1);
+     /* transform: scale(1.1);
     /*
     transform: scale(1.1);
     transform:rotate(-20deg)

@@ -1,0 +1,140 @@
+body{
+    margin: auto;
+    background-color: #ecd4c9;
+}
+#header{
+    height: 50px;
+    background-color: rgb(226, 169, 169);
+}
+#icon{
+    margin-left: 2%;
+    margin-top: -1%;
+    position: absolute;
+    color:rgb(34, 31, 31) ;
+}
+
+#icon > h1 >a {
+    color:rgb(34, 32, 32) !important;
+}
+
+#social{
+    height:150px;
+    width:150px;
+    float: right;
+    margin-right: 1%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.slogo{
+    height:30px;
+    width:30px;
+    margin-left: 3%;
+    margin-top: 9%;
+}
+.headingText{
+    text-align:center;
+    font-size:40px;
+    font-weight: bold;
+    margin-left: 15%;
+}
+
+#listingContainer{
+    width:66%;
+    height: 631px;
+    margin-left:10%;
+     /*border:2px solid rgb(45, 0, 128);*/
+    margin-top:3%;
+    margin-left: 16%;
+    
+  
+}
+   
+
+
+.filter{
+    width:25%;
+    height: 490px;
+    border:2px solid gray;
+    box-shadow:10px 20px 10px gray;
+    float: left;
+    margin-top: -1%;
+   
+}
+.filter>h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.content{
+    width: 65%;
+    height: 550px;
+   /* border:2px solid rgb(248, 83, 6);*/
+    float: left;
+    margin-left: 8%;
+    
+    
+}
+.listingcontainer{
+    height:248px;
+    width: 97%;
+    float: left;
+    /*border: 2px solid black;*/
+    margin-top: -6%;
+    margin-left: 2%;
+    border-radius: 1%;
+   box-shadow: 10px 20px 10px black
+}
+.listingcontainer>img{
+    width: 46%;
+    height: 164px;
+    margin-top: 4%;
+    float: left;
+}
+
+.listingcontainer>h3{
+    font-size: 20px;
+    margin-left: 50%;
+    font: bolder;
+}
+.listingcontainer>p{
+    font-size: 11px;
+    margin-left: 50%;
+    font: bold;
+}
+.buttonbutton1{
+    background-color:#ea9f9f;
+    margin-left: 8%;
+}
+.listingcontainer1{
+    height:248px;
+    width: 97%;
+    float: left;
+    /*border: 2px solid black;*/
+    margin-top: 2%;
+    margin-left: 2%;
+    border-radius: 1%;
+   box-shadow: 10px 20px 10px black
+}
+.listingcontainer1>img{
+    width: 46%;
+    height: 164px;
+    margin-top: 3%;
+    float: left;
+}
+.listingcontainer1>h3{
+    font-size: 20px;
+    margin-left: 50%;
+    font: bolder;
+}
+.listingcontainer1>p{
+    font-size: 11px;
+    margin-left: 50%;
+    font: bold;
+}
+.buttonbutton2{
+    background-color:#ea9f9f;
+    margin-left: 8%;
+}
